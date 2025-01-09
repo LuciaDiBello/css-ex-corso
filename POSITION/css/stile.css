@@ -1,0 +1,38 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    background: lightgreen;
+    position: relative;
+  }
+
+  .quadrato {
+    height: 50vh;
+    width: 50vh;
+    background: blue;
+    display: inline-block;
+    position: relative;
+  }
+
+  .quad {
+    height: 10vh;
+    width: 10vh;
+    background: red;
+    display: inline-block;
+  }
+
+  .quad-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .quad-right{
+    position: relative;
+    right: 5vh;
+    top: 10vh;
+  }
