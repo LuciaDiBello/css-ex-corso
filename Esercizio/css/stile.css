@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+  .container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .rettangolo{
+     position: relative;
+     display: inline-block;
+  }
+
+  .image{
+    width: 250px;
+    height: 290px;
+  }
+  
+ .sconto {
+   position: absolute;
+   top: 0;  
+   right: 0;
+   text-align: center;
+  }
+
+  .sconto.verde {
+     background-color: green;
+  }
+
+  .sconto.rosso {
+    background-color: red;
+ }
+
+  .icona{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-size: 25px;
+    color: red;
+  }
+
+ 
+  
+ 
